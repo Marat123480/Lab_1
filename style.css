@@ -1,0 +1,275 @@
+.container{
+    display: flex;
+}
+p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+}
+.container-left{
+    width: 25%;
+    margin: 1%;
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+    padding-bottom: 2%;
+    margin-bottom: 18%;
+}
+.container-right{
+    margin: 1%;
+    width: 71%;
+}
+*{
+    font-family: sans-serif;
+}
+.user{
+    background: url(images/avatar_hat.jpg);
+    height: 17vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+.user h1{
+    padding-left: 1%;
+    padding-bottom: 3%;
+    margin: 0;
+    font-size: 1.8vw;
+}
+.block{
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+}
+.block img{
+    width: 6%;
+    padding-left: 2%;
+}
+.block a{
+    text-decoration: none;
+    padding-left: 4%;
+    font-size: 1.3vw;
+    color: #757575;
+}
+.line{
+    height: 0.1vw;
+    background: #eee;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.introduction{
+    display: flex;
+    align-items: center;
+}
+.introduction img{
+    width: 7%;
+    padding-left: 2%;
+}
+.introduction h2{
+    margin: 0;
+    font-size: 1.6vw;
+    padding-left: 5%;
+    color: #757575;
+}
+.info p{
+    padding-left: 4%;
+    color: #757575;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1.3vw;
+}
+.empty-percent{
+    background:lightgrey;
+    height: 1.2vw;
+    border-radius: 2vw;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.full{
+    background:#009688;
+    height: 1.2vw;
+    border-radius: 2vw;
+    width: 0%;
+
+
+	transition:900ms linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.percent{
+    color: white;
+    font-size: 1.2vw;
+    padding-top: 0.1vw;
+}
+.large-empty-percent{
+    background:lightgrey;
+    height: 2.2vw;
+    border-radius: 2vw;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.large-full{
+    width: 0%;
+    -webkit-transition:900ms linear;
+    -moz-transition:900ms linear;
+    -o-transition:900ms linear;
+    -ms-transition:900ms linear;
+    transition:900ms linear;
+    background:#009688;
+    height: 2.2vw;
+    border-radius: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-up{
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+    padding-bottom: 2vw;
+}
+.experience{
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+.experience img{
+    width: 7%;
+}
+.experience h1{
+    font-size: 1.8vw;
+    padding-left: 2%;
+    color: #757575;
+}
+
+.news{
+    margin-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.news h5{
+    font-size: 1.3vw;
+    margin-top: 1.5vw;
+    margin-bottom: 2%;
+}
+.news{
+    font-size: 1.2vw;
+    text-align: justify;
+    color: black;
+}
+.date{
+    display: flex;
+    align-items: center;
+    padding-bottom: 1vw;
+}
+.date p{
+    color:#009688;
+}
+.date img{
+    width: 4%;
+}
+.date a{
+    color: white;
+    background-color: #009688;
+    padding: 0.5vw;
+    border-radius: 0.8vw;
+    margin-left: 0.5vw;
+}
+.container-down{
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+footer{
+    height: 10vw;
+    background-color: #009688;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+footer a{
+    color: white;
+    text-decoration: revert;
+}
+.media{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17%;
+}
+footer img{
+
+    width: 2vw;
+}
+footer p{
+    font-size: 1.5vw;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+
+    
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+   
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1289px) 
+and (orientation : portrait) {
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
